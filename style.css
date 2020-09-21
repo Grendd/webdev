@@ -1,18 +1,77 @@
-body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    height: 4105px;
-    width: 1600px;
-    position: relative;
+html{
+    text-align: center;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    height: 4105px;
+    width: auto;
+    margin: 0 auto;
+}
+input{
+    height: 44px;
+    width: 340px;
+    margin-right: -5px;
+    border: none;
+}
+button{
+    background: #00AFDB;
+    color: white;
+    height: 46px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+button:hover {
+	background: #009CC2;
+}
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 135px;
+    margin-bottom: 20px;
+
+    align-items: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+h2 {
+    color: #373737;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+}
+.portrait_img{
+    width: 407px;
+    height: 582px;
+}
+
 #first_screen{
-    background-image: url('images/bg-image.png');
-    background-size: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/backgrounds/bg-first.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
     color: white;
     height: 744px;
     width: 100%;
-    text-align: center;
-    vertical-align: middle;
+    position: relative;
 }
 header{
     height: 95px;
@@ -25,45 +84,109 @@ header{
 }
 .navi{
     display: inline-block;
-    font-size: 14px;
-    line-height: 140%;
     letter-spacing: 0px;
     padding: 25px 0;
     vertical-align: middle;
     margin: 0 42px;
+    opacity: 80%;
+    color: white;
+}
+.navi a{
+    text-decoration: none;
+    color: white !important;
+}
+.navi :hover{
+    opacity: none;
+    text-decoration: underline;
 }
 #socials{
     padding: 0;
-    position: absolute;
-    width: 100%;
-    bottom: 90px;
+    margin: 0;
 }
 .soc{
     display: inline-block;
-    padding: 25px 0;
     vertical-align: middle;
-    margin: 0 42px;
     height: 20px;
     width: 20px;
+    margin: 0 15px;
 }
-#first_screen h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
-    /* identical to box height */
 
-    align-items: center;
-    text-align: center;
-    letter-spacing: 4.5px;
-    text-transform: uppercase;
-}
 #first_screen p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 140%;
-    margin: 0;
+    margin: 0 auto 30px auto;
     width: 504px;
     text-align: center;
 }
+#btn_main{
+    width: 184px;
+    margin-bottom: 183px;
+}
+#btn_main :hover{
+    background: #030d0f;
+}
+
+.design{
+    background: white;
+    height: 842px;
+    color: #4E4E4E;
+}
+.design_cont{
+    width: 407px;
+    height: 233px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 605px;
+}
+.design img{
+    display: inline-block;
+    padding: 120px 0 0 248px;
+
+}
+
+.community{
+    background-color: #F5F6F7;
+    height: 504px;
+}
+.comm_cont{
+    width: 298px;
+    height: 175px;
+}
+
+.code{
+    background-color: #FFFFFF;
+    height: 842px;
+}
+.code_cont{
+    width: 407px;
+    height: 184px;
+    text-align: left;
+    display: inline-block;
+}
+
+.newsletter{
+    height: 524px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/backgrounds/bg_news.png);
+}
+.download_app{
+    background-color: #F5F6F7;
+    height: 464px;
+}
+footer{
+    background-color: black;
+    height: 185px;
+}
+.foot_navi{
+    color: white;
+    display: inline-block;
+}
+.foot_navi li{
+    display: inline;
+}
+footer img{
+    margin: 0 448px 0 382px;
+    vertical-align: middle;
+}
+.foot_elem{
+    vertical-align: middle;
+}
+
